@@ -1,0 +1,36 @@
+            'master': '&MASTER',
+            'id': '&ID',
+            'widget': DropDown,
+            'args': [self.NAME_dropdown_default(),
+                     self.NAME_dropdown_choices(),
+                     self.NAME_dropdown_go],
+            'location': {
+                'row': '&ROW',
+                'column': '&COLUMN',
+                'rowspan': '&ROWSPAN',
+                'columnspan': '&COLUMNSPAN',
+                'sticky': 'NSWE'
+                }
+            }
+
+    #&FUNCTIONS
+    def NAME_dropdown_default(self):
+        """
+        Return the default value displayed by NAME_dropdown, once an option has been selected, this option will no
+        longer be displayed or available
+        """
+        return '&ID Default'
+
+    def NAME_dropdown_choices(self):
+        """
+        Return the list of choices to be displayed by NAME_dropdown
+        """
+        return ['&ID Choices']
+
+    def NAME_dropdown_go(self, *args):
+        """
+        Function called when an option is selected in NAME_dropdown.
+        args[0] will contain the value selected
+        """
+        print('&ID')
+

@@ -1,0 +1,2 @@
+from GuiBuilder.PROJECTS.&NAME.Components.MainWidgets import *
+from GuiBuilder.PROJECTS.&NAME.Components.Frames import *

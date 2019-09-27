@@ -1,0 +1,32 @@
+from MyPyWidgets import *
+
+
+class Gui(object):
+
+    def __init__(self):
+        self.window = None
+        self.window_kwargs = {'type': 'root',
+                              'master': None,
+                              'title': '&TITLE',
+                              'id': 'root_window',
+                              'owner': self,
+                              'base_location': {
+                                  'row': 0,
+                                  'column': 0,
+                                  'rowspan': '&ROWSPAN',
+                                  'columnspan': '&COLUMNSPAN',
+                                  'sticky': 'NSWE'
+                              },
+                              'row_offset': 0,
+                              'column_offset': 0}
+        self.components = []
+
+        # &WIDGETS
+        # &ENDWIDGETS
+    def run(self):
+        self.window = MyPyWindow(**self.window_kwargs)
+        self.window.setup()
+        for item in self.components:
+            self.window.add_widget(**item)
+        self.window.run()
+

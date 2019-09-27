@@ -1,0 +1,5 @@
+        self.&FRAME = Main&FRAME(self)
+        self.&FRAME.window = None
+        self.&FRAME_window = None
+        self.&FRAME_components = self.&FRAME.components
+

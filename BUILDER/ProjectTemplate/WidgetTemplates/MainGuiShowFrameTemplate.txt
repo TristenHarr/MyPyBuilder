@@ -1,0 +1,12 @@
+    def show_&FRAME(self):
+        self.&FRAME.widget['master'] = self.main_window
+        if self.&FRAME.widget['type'] == 'toplevel':
+            self.main_window.add_toplevel(**self.&FRAME.widget)
+        else:
+            self.main_window.add_frame(**self.&FRAME.widget)
+        self.&FRAME.window = self.main_window.containers[self.&FRAME.widget['id']]
+        self.&FRAME_window = self.&FRAME.window
+        for widget in self.structure_components['&FRAME']:
+            self.&FRAME_components[widget.__name__] = widget(self.&FRAME)
+            self.&FRAME_window.add_widget(**self.&FRAME_components[widget.__name__].widget)
+

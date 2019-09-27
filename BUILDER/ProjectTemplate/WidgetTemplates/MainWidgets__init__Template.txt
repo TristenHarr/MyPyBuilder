@@ -1,0 +1,1 @@
+from GuiBuilder.PROJECTS.&NAME.Components.MainWidgets.&FILE import &CLASS
