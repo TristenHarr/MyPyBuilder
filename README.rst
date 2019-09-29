@@ -397,6 +397,7 @@ In the future there are plans to implement an alias accross the board for the ma
 Which turns that nasty long line into:
 
 .. code-block:: python
+
     self.w.TopLevel_components["ButtonButton2"].Button2_button_go()
 	
 
