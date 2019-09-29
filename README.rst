@@ -82,6 +82,10 @@ For Example:
 The second special feature is the **Iterative Location** checkbox. In the above example all of John's buttons would appear in the same location. Meaning that if John made buttons 0-9, they would all be stacked and he would only be able to see calc_button9, and then under that would be button8, etc. The iterative location offsets the buttons slightly, so that they still appear stacked, but they are in a diagonal line moving down and to the right.
 
 
+Making Widgets Resize with the window
+--------
+Nothing to see here, All Widgets resize automagically. The sizes you set in the GuiBuilder are just the initial sizes. Stretch the window and the widgets will resize with the window. 
+
 
 Using the Edit Widget Tab
 --------
