@@ -50,6 +50,14 @@ If you wish to view what the project currently looks like as a standalone applic
 **IMPORTANT NOTE**: If you build this super cool project and then click the **Run Project** button, chances are it will fail. This is because in the guibuilder the **Widget ID's** are set as the default values, but that isn't the case in the final project, in which it is your job to specify the basic widget information. **See The Coding The Logic Section**
 
 
+Deleting an Existing Project
+--------
+In the main startup window click the **Load Project** button. From there, select the project you wish to delete from the dropdown, and 
+select **Delete Project**
+
+**NOTE TO PROJECT CONTRIBUTORS**:
+While in the process of developing the project, chances are you will quickly find yourself inundated with as many as 50+ projects at any given time. (Make a change, start a new project to test it, then repeat) Instead of going through all these projects one-by-one, if you open the version.txt file, and set the verion number = 0.0, when you re-run the __main__.py program, it will by default delete every project except the one titled "Demo".
+
 Using the Create Widget Tab
 --------
 This tab is used for creating widgets. 
@@ -178,8 +186,87 @@ As you may have noticed, many of the buttons that close the window (X button) do
 
 Coding The Logic
 --------
+**For this section we will be working with a Project titled Demo**
 
+**This Section is likely the most important section in the entire document.**
+When you create a project with the GuiBuilder you probably think "Neat, I Got this cool gui built! How do I actually make it functional?" This section will give an overview of how to actually insert the logic into your newly built GUI and some recommendations for getting everything to work.
 
+**Where Do I Find The Final Application? What's The Directory Structure Look Like?**
+The code that gets generated for the Application is going to be stored inside the GuiBuilder/PROJECTS directory. So, for the project Demo, it will be the GuiBuilder/Projects/Demo directory.
+Inside this directory you will find the following layout:
 
+::
 
+ Demo
+ |
+ |--- Components
+ |    |
+ |    |--- Frames
+ |    |
+ |    |--- MainWidgets
+ |    |    |
+ |    |    |--- __init__.py
+ |    |
+ |    |--- __init__.py
+ |    |
+ |    |--- Builder_Helper.py
+ |
+ |--- __init__.py
+ |
+ |--- __main__.py
+ |
+ |--- MainGui.py
+ |
+ |--- MainGuiTemplate.py
 
+The MainGui.py file is where you will write/use all the logic code for the project.
+**Recommendation**: Write all the logic in a seperate class/classes, and then import it into the MainGui.py file.
+
+Buttons:
+   If you create a button on the main window of the Gui with the **Widget ID** of click_me this is how you would make it operational.
+   Lets say you want to print **"hello"** to the console when the button is clicked and you want the button text to be **"Clickity"**
+   In Demo/Components/MainWidgets/Button_click_me.py you will find the button.
+   There will be two functions generated for you in this file.
+   
+   .. code-block:: python
+   
+        def click_me_button_fill(self):
+            """
+            Return the text value of click_me_button displayed on the gui
+            """
+            return 'click_me'
+
+        def click_me_button_go(self, *args):
+            """
+            Function Called when click_me_button is clicked
+            """
+            print('click_me')
+            
+   By changing the return value in the click_me_button_fill() you are specifying the text to display on the button.
+   If you wanted the button to say "Clickity" you would change the return line to
+    
+   .. code-block:: python
+    
+       return "Clickity"
+   
+   The click_me_button_go() method specifies what to do when the button is clicked.
+   It is not recommended but will work to simply write the code logic inside this method.
+   
+   The reccomended way of doing things however is to write the code logic in the MainGui.py file.
+   Assume there is a function written in MainGui.py as follows:
+   
+   .. code-block:: python
+       def click_me_go(self):
+           print("hello")
+   
+   In the Button_click_me.py file you then would change the click_me_button_go() method to
+   
+   .. code-block:: python
+   
+       def click_me_button_go(self, *args):
+           """
+           Function Called when click_me_button is clicked
+           """
+           self.master.master.click_me_go()
+           
+**Lets Talk About this self.master.master thing**
