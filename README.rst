@@ -186,6 +186,8 @@ As you may have noticed, many of the buttons that close the window (X button) do
 
 Coding The Logic
 --------
+**IMPORTANT: IF YOU WRITE LOGIC, THEN GO BACK AND EDIT THE GUI IN THE GUI BUILDER AND SAVE IT, THE LOGIC WILL BE OVERWRITTEN. (An attemped fix for this is in the works)**
+
 **For this section we will be working with a Project titled Demo**
 
 **This Section is likely the most important section in the entire document.**
@@ -269,4 +271,139 @@ Buttons:
            """
            self.master.master.click_me_go()
            
-**Lets Talk About this self.master.master thing**
+**Lets Talk About the way things are Structured**
+Assume we have a project called Demo2. This project has 1 scrollable frame (ID ScrollFrame), 1 toplevel (ID TopLevel), and 3 buttons. (1 button on each window/frame)
+This is what our MainGui.py file is going to look like:
+    
+    .. code-block:: python
+    
+		from MyPyWidgets import *
+		from GuiBuilder.PROJECTS.Demo2 import *
+
+
+		class Gui(object):
+
+			def __init__(self):
+				self.main = MainTemplate(self)
+				self.main.window = MyPyWindow(**self.main.widget)
+				self.main_window = self.main.window
+				self.main_components = self.main.components
+				self.structure = BuildHelper()
+				self.structure_components = self.structure.components
+
+				self.TopLevel = MainTopLevel(self)
+				self.TopLevel.window = None
+				self.TopLevel_window = None
+				self.TopLevel_components = self.TopLevel.components
+
+				self.ScrollFrame = MainScrollFrame(self)
+				self.ScrollFrame.window = None
+				self.ScrollFrame_window = None
+				self.ScrollFrame_components = self.ScrollFrame.components
+
+				# &FRAMES
+			def run(self):
+				for widget in self.structure_components['root_window']:
+					self.main_components[widget.__name__] = widget(self.main)
+					self.main_window.add_widget(**self.main_components[widget.__name__].widget)
+				self.main_window.setup()
+				self.main_window.run()
+
+			def show_TopLevel(self):
+				self.TopLevel.widget['master'] = self.main_window
+				if self.TopLevel.widget['type'] == 'toplevel':
+					self.main_window.add_toplevel(**self.TopLevel.widget)
+				else:
+					self.main_window.add_frame(**self.TopLevel.widget)
+				self.TopLevel.window = self.main_window.containers[self.TopLevel.widget['id']]
+				self.TopLevel_window = self.TopLevel.window
+				for widget in self.structure_components['TopLevel']:
+					self.TopLevel_components[widget.__name__] = widget(self.TopLevel)
+					self.TopLevel_window.add_widget(**self.TopLevel_components[widget.__name__].widget)
+
+			def show_ScrollFrame(self):
+				self.ScrollFrame.widget['master'] = self.main_window
+				if self.ScrollFrame.widget['type'] == 'toplevel':
+					self.main_window.add_toplevel(**self.ScrollFrame.widget)
+				else:
+					self.main_window.add_frame(**self.ScrollFrame.widget)
+				self.ScrollFrame.window = self.main_window.containers[self.ScrollFrame.widget['id']]
+				self.ScrollFrame_window = self.ScrollFrame.window
+				for widget in self.structure_components['ScrollFrame']:
+					self.ScrollFrame_components[widget.__name__] = widget(self.ScrollFrame)
+					self.ScrollFrame_window.add_widget(**self.ScrollFrame_components[widget.__name__].widget)
+
+			# &SHOWFRAME
+
+Heres what everything means.
+
+The **show** methods:
+    Sometimes we want a frame or a toplevel window to not be visible initially, maybe the user needs to click a "settings" button that
+    causes the toplevel to pop-up. Thats what these methods are for. For each frame/toplevel you create, you will have a show_ID       	     method. When this method is called, the window/frame will be built. 
+	**What if I want the Frame/Toplevel to show up when the application is initially started?**
+	Simple, just add:
+	
+	.. code-block:: python
+	
+	    self.show_ScrollFrame()
+	between the
+	
+	.. code-block:: python
+	
+	    self.main_window.setup()
+	and the 
+	
+	.. code-block:: python
+	
+	    self.main_window.run()
+	lines in the run() method.
+
+**Templates and Main Classes**
+The entire project is built to keep the locations/sizes/etc of widgets/windows seperated from the code that places them and tells them
+what to do. Each frame or window has a dictionary of all it's components. These components are the buttons/dropdowns/etc that the frame owns. This is where the self.master.master line of code comes along. For Widgets contained on the main window, the direct master of those widgets is the class contained in the MainGuiTemplate.py file. The master of the class conatined in MainGuiTemplate.py (MainTemplate() class) is the Gui() class which is the class in MainGui().
+
+If a widget is owned by a frame, or a toplevel widget, the layout is very similar. The master of the widget is the toplevel itself, and the master of that toplevel is the Gui() class. This means that to access a function from the Gui() class, no matter what frame/window
+you are in, you can use:
+
+.. code-block:: python
+
+    self.master.master.Some_Function_I_Want()
+
+The last piece of the puzzle is linking widgets together. Lets say that we wanted to make it so Button3 which is contained on the ScrollFrame called Button2 which is contained on the TopLevel when it was clicked.
+For this the code looks a bit strange, but the nice thing is that the structure remains the same. The one important thing to keep in 
+mind is the way the class names are created. If I give something a Widget ID of Button2, the class name inside the Button_Button2.py file will be Button2Button, likewise a DropDown named "Thing" has a class name of ThingDropDown.
+
+So knowing that
+1. Button2 is owned by TopLevel
+2. Button2 has a class of ButtonButton2
+3. The function called when Button2 is clicked is Button2_button_go()
+
+The code written inside the Button3_button_go() method to simulate a click of Button2 would be
+
+.. code-block:: python
+
+    self.master.master.TopLevel_components["ButtonButton2"].Button2_button_go()
+
+This might look a bit tricky, but keep in mind that although the line seems complex, the self.master.master is simply accessing the MainGui, which means it's essentially the same as just self.TopLevel_Components["ButtonButton2"].Button2_button_go()
+In the future there are plans to implement an alias accross the board for the main window, perhaps something like:
+
+.. code-block:: python
+
+    self.w = self.master.master
+Which turns that nasty long line into:
+
+.. code-block:: python
+    self.w.TopLevel_components["ButtonButton2"].Button2_button_go()
+	
+
+I've built all the logic, so what's next?
+--------
+
+To run the application simply run the __main__.py file inside the Project! Lets say you want to ship the application as a standalone application. That's actually pretty simple. 
+
+Make a new directory with whatever you want the project to be named. Inside that directory, you want to put 2 things.
+
+1. Place the Project directory (GuiBuilder/PROJECTS/Project_I_Want_To_Ship) inside the new directory.
+2. Place the MyPyWidgets directory (GuiBuilder/MyPyWidgets) inside the new directory.
+
+And you are done!
