@@ -1,8 +1,0 @@
-from MyPyWidgets import *
-
-
-class &CLASSNAME(object):
-
-    def __init__(self, master):
-        self.master = master
-        self.widget = {

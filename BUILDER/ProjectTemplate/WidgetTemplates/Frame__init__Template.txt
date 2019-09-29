@@ -1,2 +1,0 @@
-from GuiBuilder.PROJECTS.&NAME.Components.Frames.&FILE import *
-from GuiBuilder.PROJECTS.&NAME.Components.Frames.&FOLDER import *

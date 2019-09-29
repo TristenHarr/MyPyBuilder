@@ -12,8 +12,8 @@ class Buttontmp(object):
             'args': [self.tmp_button_fill(),
                      self.tmp_button_go],
             'location': {
-                'row': 265,
-                'column': 294,
+                'row': 150,
+                'column': 361,
                 'rowspan': 25,
                 'columnspan': 100,
                 'sticky': 'NSWE'

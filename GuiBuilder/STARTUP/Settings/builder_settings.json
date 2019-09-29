@@ -1,1 +1,1 @@
-{"type": "root", "master": null, "title": "Root Window", "id": "root_window", "owner": null, "base_location": {"row": 0, "column": 0, "rowspan": 500, "columnspan": 500, "sticky": "NSWE"}, "row_offset": 0, "column_offset": 0}
+{"type": "root", "master": null, "title": null, "id": "root_window", "owner": null, "base_location": {"row": 0, "column": 0, "rowspan": 500, "columnspan": 700, "sticky": "NSWE"}, "row_offset": 0, "column_offset": 0}

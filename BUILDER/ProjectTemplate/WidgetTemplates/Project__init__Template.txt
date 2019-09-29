@@ -1,2 +1,0 @@
-from GuiBuilder.PROJECTS.&NAME.Components.Builder_Helper import BuildHelper
-from GuiBuilder.PROJECTS.&NAME.MainGuiTemplate import MainTemplate

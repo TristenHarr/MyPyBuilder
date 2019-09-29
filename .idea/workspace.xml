@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d9f54b-6ea5-47d1-a744-9da1e323a02f" name="Default" comment="" />
+    <list default="true" id="15d9f54b-6ea5-47d1-a744-9da1e323a02f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/Demo/Loader/builder_dict.p" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/Demo/Loader/frames.p" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/Demo/Loader/widget_args.p" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/Demo/MainGuiBuilderDemo.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/Demo/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/PROJECTBUILDER/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/RootTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/ControlPanelTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/EditTab/EditTabBuild.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/EditTab/EditWidgetTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/EditTab/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/FrameTab/FrameTabBuild.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/FrameTab/FrameWidgetTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/FrameTab/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/NewTab/NewTabBuild.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/NewTab/NewWidgetTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/NewTab/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/Tabs/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/BaseTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/BuildHelperTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/ButtonTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/CheckButtonTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/Components__init__Template.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/CustomFrame__init__Template.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/DropDownTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/Frame__init__Template.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/InputFieldTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/LabelTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/ListBoxTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/MainGuiFramesTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/MainGuiShowFrameTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/MainTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/MainWidgets__init__Template.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/MultiBaseTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/ProjectFrame__init__.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/Project__init__Template.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/RadioButtonTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/RootFrameTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/RootTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/SpinBoxTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/SplitClassGenerator.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/WidgetTemplates/WidgetTemplate.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/ProjectTemplate/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BUILDER/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/builder_dict.p" afterPath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/builder_dict.p" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/frames.p" afterPath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/frames.p" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/widget_args.p" afterPath="$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/Loader/widget_args.p" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/Builder_Helper.py" afterPath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/Builder_Helper.py" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py" afterPath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/__init__.py" afterPath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGui.py" afterPath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGui.py" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/__init__.py" afterPath="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/GuiBuilder/STARTUP/Settings/builder_settings.json" afterPath="$PROJECT_DIR$/GuiBuilder/STARTUP/Settings/builder_settings.json" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/Components/Builder_Helper.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/Components/MainWidgets/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/Components/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/MainGui.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/MainGuiTemplate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/Demo/__main__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PROJECTS/__init__.py" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +74,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MyPyBuilder$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1569627437304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPyBuilder$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1569776177044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PROJECTS/Demo" />
+    <SUITE FILE_PATH="coverage/MyPyBuilder$MainGui.coverage" NAME="MainGui Coverage Results" MODIFIED="1569775567530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PROJECTS/Demo" />
+    <SUITE FILE_PATH="coverage/MyPyBuilder$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1569776671302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo" />
+    <SUITE FILE_PATH="coverage/MyPyBuilder$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1569785823093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -26,12 +93,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
+      <file leaf-file-name="MainGuiTemplate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGuiTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGuiBuilderDemo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/MainGuiBuilderDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-368">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPyWindow3Class.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyPyWidgets/MyPyWindow3Class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button_tmp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <marker date="1569785838159" expanded="true" signature="52:817" ph="..." />
+                <marker date="1569785838159" expanded="true" signature="720:817" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1569785838450" expanded="true" signature="85:1523" ph="..." />
+                <marker date="1569785838450" expanded="true" signature="110:414" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,81 +182,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/installer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builder_settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STARTUP/Settings/builder_settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STARTUP/Settings/project_settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGuiBuilder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STARTUP/MainStartup/MainGuiBuilder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGuiTemplate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuiBuilder/STARTUP/MainStartup/MainGuiTemplate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGuiTemplate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STARTUP/MainStartup/MainGuiTemplate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6349">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TODO</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\trist\PycharmProjects\MyPyBuilder</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PROJECTS/Demo/MainGui.py" />
+        <option value="$PROJECT_DIR$/PROJECTS/Demo/MainGuiTemplate.py" />
+        <option value="$PROJECT_DIR$/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py" />
+        <option value="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py" />
+        <option value="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGui.py" />
+        <option value="$PROJECT_DIR$/GuiBuilder/PROJECTS/Frametest/Components/Frames/Main_my_frame_Frame.py" />
+        <option value="$PROJECT_DIR$/version.txt" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -129,11 +215,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1821" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -156,22 +242,6 @@
               <item name="MyPyBuilder" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPyBuilder" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyPyBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPyBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="MyPyWidgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPyBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPyBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="STARTUP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPyBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPyBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="STARTUP" type="462c0819:PsiDirectoryNode" />
-              <item name="MainStartup" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +254,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +268,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.__main__">
+    <configuration name="MainGui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PROJECTS/Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyPyBuilder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PROJECTS/Demo/MainGui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="__main__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PROJECTS/Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyPyBuilder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PROJECTS/Demo/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="__main__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyPyBuilder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,9 +345,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MainGui" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__main__ (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__main__ (2)" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__main__ (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__main__ (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MainGui" />
       </list>
     </recent_temporary>
   </component>
@@ -240,18 +377,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71014494" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -260,7 +397,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -276,14 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -292,25 +420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/installer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/STARTUP/Settings/builder_settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STARTUP/Settings/project_settings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -326,20 +436,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/STARTUP/MainStartup/MainGuiTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/STARTUP/MainStartup/MainGuiBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GuiBuilder/STARTUP/MainStartup/MainGuiTemplate.py">
+    <entry file="file://$PROJECT_DIR$/STARTUP/Settings/project_settings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -352,12 +470,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__main__.py">
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/Components/MainWidgets/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/MainGui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/MainGuiTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/Components/Builder_Helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/Components/MainWidgets/Button_tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1569785838159" expanded="true" signature="52:817" ph="..." />
+            <marker date="1569785838159" expanded="true" signature="720:817" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1569785838450" expanded="true" signature="85:1523" ph="..." />
+            <marker date="1569785838450" expanded="true" signature="110:414" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Frametest/Components/Frames/Main_my_frame_Frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPyWidgets/MyPyWindow3Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/PROJECTS/Demo/MainGuiTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuiBuilder/BUILDER/PROJECTBUILDER/Demo/MainGuiBuilderDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
