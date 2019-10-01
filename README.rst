@@ -4,7 +4,7 @@ MyPyBuilder
 
 What is MyPyBuilder?
 --------
-MyPyBuilder is a Drag-and-Drop GUI implementation that wraps the tkinter library.
+MyPyBuilder is a Drag-and-Drop GUI builder that wraps the tkinter library.
 
 * Windows and Widgets automatically resize when the window is stretched.
 * The GUI code is generated for you, all you do is write the logic.
