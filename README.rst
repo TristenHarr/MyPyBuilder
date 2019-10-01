@@ -6,6 +6,7 @@ What is MyPyBuilder?
 --------
 MyPyBuilder is a Drag-and-Drop GUI builder that wraps the tkinter library.
 
+* MyPyBuilder is primarily: **Fast**
 * Windows and Widgets automatically resize when the window is stretched.
 * The GUI code is generated for you, all you do is write the logic.
 * Allows you to build multiple different projects at once, keeping them all organized for you.
@@ -17,7 +18,7 @@ MyPyBuilder is a Drag-and-Drop GUI builder that wraps the tkinter library.
 Why Use MyPyBuilder over other GUI Builders?
 --------
 MyPyBuilder **IS NOT** designed with the primary purpose of making commercial applications to offer to customers. 
-MyPyBuilder is designed to be used as an extremely fast way to skin a python script.
+MyPyBuilder **IS** designed to be used as an extremely fast way to skin a python script.
 
 * MyPyBuilder is designed with a minimal interface so that you don't have a bunch of windows and options getting in the way
 * MyPyBuilder was designed specifically with engineering research labs in mind, allowing existing testing/verification scripts that run via command line to be skinned with a GUI in 10-20 minutes. 
