@@ -14,6 +14,18 @@ MyPyBuilder is a Drag-and-Drop GUI builder that wraps the tkinter library.
 * Forces widgets and windows to be the size you want, not some weird size tkinter decides they should be.
 * Makes it easy to make scrollable frames, toplevel windows, and writes the logic for making them appear for you.
 
+Why Use MyPyBuilder over other GUI Builders?
+--------
+MyPyBuilder **IS NOT** designed with the primary purpose of making commercial applications to offer to customers. 
+MyPyBuilder is designed to be used as an extremely fast way to skin a python script.
+
+* MyPyBuilder is designed with a minimal interface so that you don't have a bunch of windows and options getting in the way
+* MyPyBuilder was designed specifically with engineering research labs in mind, allowing existing testing/verification scripts that run via command line to be skinned with a GUI in 10-20 minutes. 
+* MyPyBuilder is designed with a minimal learning curve compared to many currently available GUI builders.
+* MyPyBuilder is implemented in 100% pure python code, so changing things doesn't require knowing another GUI language.
+
+Oftentimes we write a script that for one reason or another ends up needing a GUI. The script takes us 10 minutes to write, and but the GUI can sometimes take hours. MyPyBuilder is different. MyPyBuilder is designed to make building a GUI just as fast as writing the code that runs it.
+
 
 **KEEP IN MIND WHEN DEVELOPING THAT THIS IS A BETA RELEASE OF THE APPLICATION. CHANGES WILL BE MADE THAT COULD POTENTIALLY BREAK BACKWARDS COMPATIBILITY**
 
