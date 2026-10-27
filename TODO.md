@@ -1,6 +1,6 @@
 # Project TODO List
 
-* Extract the seperate Widget Classes to use the Tkinter defaults projectwide (High Priority)
+* Extract the separate Widget Classes to use the Tkinter defaults projectwide (High Priority)
 
 * Add Notebooks, Tabs, Progressbar, Sizegrip... etc. (Medium Priority)
 
